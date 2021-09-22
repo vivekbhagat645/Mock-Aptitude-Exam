@@ -1,15 +1,14 @@
 import firebase from "firebase";
 
-const config = {
-  apiKey: "AIzaSyA3SXKm2bMf9-qq9e17AgreeRmEZ229RRQ",
-  authDomain: "mcq-engine-cdc49.firebaseapp.com",
-  databaseURL: "https://mcq-engine-cdc49.firebaseio.com",
-  projectId: "mcq-engine-cdc49",
-  storageBucket: "mcq-engine-cdc49.appspot.com",
-  messagingSenderId: "229594679757",
-  appId: "1:229594679757:web:a5fc0ef0a49e5985015c84",
-  measurementId: "G-JYD7WR23FZ",
-};
+const firebaseConfig = {
+    apiKey: "AIzaSyDlquXsw8_9RezUN3x2-_50L3FfSMZGq2I",
+    authDomain: "newproject-7891e.firebaseapp.com",
+    projectId: "newproject-7891e",
+    storageBucket: "newproject-7891e.appspot.com",
+    messagingSenderId: "240422268635",
+    appId: "1:240422268635:web:ad6be6ec4bebf75812a6fe",
+    measurementId: "G-TNCBV2C0DP"
+  };
 
 firebase.initializeApp(config);
 export default firebase;
